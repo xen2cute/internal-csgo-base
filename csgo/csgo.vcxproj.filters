@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\bypass">
+      <UniqueIdentifier>{b6d6a091-724a-488b-aa7b-4054e8b31bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{b7e12500-993e-4973-ba9a-693b58c566ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{8f8487f8-b771-4296-9d34-da6d5305541b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\hde">
+      <UniqueIdentifier>{eb2e36a7-7ac5-48f6-9cfa-d60734091a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{4a4243d7-edb1-454a-84e1-1832700e96c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooking">
+      <UniqueIdentifier>{4d505930-3515-4aa3-b463-34c2c97eb9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSGO">
+      <UniqueIdentifier>{473efd14-6580-446c-80bb-1c47477a151c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\14404\Downloads\imgui-master\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\14404\Downloads\imgui-master\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\14404\Downloads\imgui-master\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\14404\Downloads\imgui-master\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\14404\Downloads\imgui-master\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>Source Files\CSGO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\imgui-master\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\buffer.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\14404\Downloads\minhook-master\include\MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Source Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>Source Files\CSGO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
