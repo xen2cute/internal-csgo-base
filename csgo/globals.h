@@ -9,6 +9,7 @@ struct Color {
 };
 
 namespace offset {
+	//you will need to update your offsets everytime CS:GO updates. new offsets can be found:
 	//https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.hpp
 	constexpr std::uintptr_t dwLocalPlayer = 0xDB65DC;
 	constexpr std::uintptr_t dwForceJump = 0x527C38C;
