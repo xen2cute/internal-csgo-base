@@ -20,7 +20,7 @@ namespace offset {
 	constexpr std::uintptr_t dwClientState_ViewAngles = 0x4D90;
 	constexpr std::uintptr_t dwClientState_GetLocalPlayer = 0x180;
 	constexpr std::uintptr_t m_vecViewOffset = 0x108;
-
+	//some offsets arent used because i deleted some functions before publishing
 	constexpr std::uintptr_t m_dwBoneMatrix = 0x26A8;
 	constexpr std::uintptr_t m_aimPunchAngle = 0x303C;
 	constexpr std::uintptr_t m_iHealth = 0x100;
